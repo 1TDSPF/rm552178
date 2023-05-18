@@ -64,6 +64,7 @@ td[colspan], td[rowspan]{
 .rodape div form{
     margin: 0 auto;
     width: 50%;
+    font-size: 2rem;
 }
 
 
@@ -81,6 +82,9 @@ td[colspan], td[rowspan]{
 .rodape div form select{
     display: block;
     margin: 0 auto 2% auto;
+    width: 40%;
+    height: 40px;
+
 }
 
 .rodape form div fieldset{
@@ -97,7 +101,6 @@ td[colspan], td[rowspan]{
     margin: 0 auto;
     justify-content: center;
 }
-
 .btn button{
     width: 40%;
     height: 40px;
@@ -109,12 +112,14 @@ td[colspan], td[rowspan]{
     color:#fff;
     border: 1px solid #dddddd;
     border-radius: 5px;
-    
 }
 .btn button:nth-child(odd){
     background-color: green;
     color:#fff;
     border: 1px solid #dddddd;
     border-radius: 5px;
+}
 
+#btnSair{
+    display: none;
 }
